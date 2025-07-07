@@ -29,7 +29,7 @@ Ambiente virtuale configurato con rete interna per comunicazione diretta tra Kal
 ### 🔹 TCP Connect Scan (`-sT`)
 
 ```bash
-nmap -sT -p 1-1024 192.168.50.2
+nmap -sT -p 1-1024 192.168.0.167
 ```
 
 * Metodo "full open" (3-way handshake)
@@ -39,7 +39,7 @@ nmap -sT -p 1-1024 192.168.50.2
 ### 🔹 TCP SYN Scan (`-sS`)
 
 ```bash
-nmap -sS -p 1-1024 192.168.50.2
+nmap -sS -p 1-1024 192.168.0.167
 ```
 
 * Metodo "stealth"
@@ -48,7 +48,7 @@ nmap -sS -p 1-1024 192.168.50.2
 ### 🔹 Scansione Aggressiva (`-A`)
 
 ```bash
-nmap -A -p 1-1024 192.168.50.2
+nmap -A -p 1-1024 192.168.0.167
 ```
 
 * Rilevamento sistema operativo, versioni dei servizi, script scanning
